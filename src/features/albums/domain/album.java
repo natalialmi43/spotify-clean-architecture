@@ -1,13 +1,13 @@
 package features.albums.domain;
 
-public class Album {
+public class album {
 
     private String id;
     private String name;
     private String publicationYear;
 
 
-    public Album(String id, String name, String publicationYear) {
+    public album(String id, String name, String publicationYear) {
         this.id = id;
         this.name = name;
         this.publicationYear = publicationYear;
